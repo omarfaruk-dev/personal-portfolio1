@@ -13,7 +13,7 @@
     border-radius: 10px;
     font-size: 20px;
 } */
-
+ 
 a {
   text-decoration: none;
   background-color: #ec4c7a;
@@ -63,4 +63,85 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
+}
+.biography-img img{
+  width: 450px;
+  margin-left: 18%;
+  margin-top: 200px;
+}
+.biography-txt{
+position: relative;
+left: 50%;
+bottom: 45%;
+}
+.biography-txt h2{
+  font-size: 35px;
+  font-weight: 400;
+}
+.biography-txt p{
+  font-size: 20px;
+  color: #707070;
+  line-height: 30px;
+  margin: 50px 0 50px;
+}
+.work{
+  background-image: url(images/latest-work-bg.png);
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.work h2{
+  text-align: center;
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+.work .images{
+ position: absolute;
+ left: 100px;
+ 
+}
+.one{
+  height: 400px;
+}
+.two{
+  height: 400px;
+  margin-left: 50px;
+}
+.three{
+  height: 400px;
+  margin-left: 50px;
+}
+footer{
+  background-image: url(images/footer-bg.png);
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+/* footer .text{
+  position: relative;
+  left: 40%;
+} */
+.text h2{
+  text-align: center;
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+.text h4{
+  text-align: center;
+}
+.text h6{
+  text-align: center;
+}
+.text p{
+  text-align: center;
+}
+.message{
+  height: 150px;
+  width: 250px;
+
+
 }
