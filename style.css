@@ -86,7 +86,7 @@ bottom: 45%;
 }
 .work{
   background-image: url(images/latest-work-bg.png);
-  height: 1000px;
+  height: 750px;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -115,7 +115,7 @@ bottom: 45%;
 }
 footer{
   background-image: url(images/footer-bg.png);
-  height: 1000px;
+  height: 800px;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -157,4 +157,12 @@ footer{
 }
 .message p{
   padding: 20px 0 30px;
+}
+.message h3{
+  font-size: 25px;
+}
+.copyright{
+  text-align: center;
+  position: relative;
+ top: 500px;
 }
